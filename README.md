@@ -3,7 +3,7 @@
 ### Assignment 4: Full-Page Layout
 ### Author: Chad Cervantes 
 
-[GitHub Page]()
+[GitHub Page](https://chad-cervantes.github.io/cpnt260-a4-Full-Page-Layout/)
 
 ### Attributions 
 
