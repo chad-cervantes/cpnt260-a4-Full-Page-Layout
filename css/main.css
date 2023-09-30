@@ -1,9 +1,11 @@
 /* styled logo */
 .logo {
+  display: flex;
+  justify-content: flex-start;
+  float: left;
+
   width: 50px;
   height: 50px;
-
-  display: block;
 
   padding: 1rem;
 
@@ -30,7 +32,7 @@ h1 {
 nav {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   align-items: center;
   
   max-width: auto;
@@ -40,8 +42,9 @@ nav {
  nav ul {
   padding: 1rem;
 
-  display: flex;
-  justify-content: flex-end;
+  display: none;
+  /* display: flex;
+  justify-content: flex-end; */
  
   list-style: none;
   
@@ -98,7 +101,7 @@ nav a {
   }
 }
 
-/*needed to make side navbar for mobile */
+/*toggle */
 @media screen and (width > 50rem) {
   nav ul {
     display: flex;
