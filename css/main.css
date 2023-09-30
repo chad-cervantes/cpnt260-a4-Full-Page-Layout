@@ -1,0 +1,112 @@
+/* styled logo */
+.logo {
+  width: 50px;
+  height: 50px;
+
+  display: block;
+
+  padding: 1rem;
+
+  align-items: center;
+}
+
+/* styled label */
+label {
+  color: white;
+
+  padding: 1rem;
+}
+
+h1 {
+  padding: 10px;
+  margin: 0;
+
+  text-align: center;
+
+  max-width: 85ch;
+}
+
+/*styling nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  max-width: auto;
+}
+
+/* styling navbar*/
+ nav ul {
+  padding: 1rem;
+
+  display: flex;
+  justify-content: flex-end;
+ 
+  list-style: none;
+  
+  gap: 1rem;
+ }
+
+/* nav hover */
+nav a:hover {
+  background-color: lightsalmon;
+  
+  padding: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* nav buttons */
+nav a {
+  color: black;
+}
+
+/* for label */
+input {
+  display: none;
+}
+
+/* ensures no checkboxes */
+input:checked + ul {
+  display: block;
+}
+
+/* nav buttons */
+nav a {
+  color: white;
+}
+
+/* used different color for nav */
+@media (color) {
+  nav {
+    background-color: black;
+  } 
+  nav ul {
+    background-color: black;
+  }
+}
+
+/* to make it mobile friendly */
+@media (min-width: 50rem) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
+  }
+}
+
+/*needed to make side navbar for mobile */
+@media screen and (width > 50rem) {
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  label {
+    display: none;
+  }
+}
+
