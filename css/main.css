@@ -42,7 +42,7 @@ label {
   padding: 1rem;
 }
 
-h2 {
+h1 {
   padding: 10px;
   margin: 0;
 
@@ -50,6 +50,10 @@ h2 {
 
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 65px;
+
+  filter: drop-shadow(5px 5px 5px black);
+
+  color: black;
 }
 
 .photographer {
@@ -114,7 +118,7 @@ nav a {
 footer {
   padding: 1rem;
   
-  background-color: aqua;
+  background-color: #eadfc1;
 
   margin-top: 200px;
 
