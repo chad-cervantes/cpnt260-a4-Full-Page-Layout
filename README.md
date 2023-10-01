@@ -11,4 +11,7 @@
 - See line in index.html
 - [Original source of image](https://www.manypixels.co/blog/brand-design/photography-logo)
 
+[Lorem Picsum](https://picsum.photos/)
+ - [Lorem Picsum photo used](https://fastly.picsum.photos/id/823/5000/3333.jpg?hmac=75sjFAfvXxelfFDFdlupCl2KDgIbyOOBTmvhcr6u0B8)
+
 ### Above and Beyond
