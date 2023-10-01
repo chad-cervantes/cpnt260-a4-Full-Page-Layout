@@ -7,17 +7,20 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr; 
-
-  margin: auto;
 }
 
 p {
   margin: auto;
 
   font-family: Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 
-  text-align: center;
+  max-width: 85ch;
+  text-align: justify;
+
+  padding: 0;
+
+  line-height: 2;
 }
 
 /* styled logo */
@@ -26,7 +29,7 @@ p {
   justify-content: flex-start;
   float: left;
 
-  width: 50px;
+  width: 100px;
   height: 50px;
 
   padding: 1rem;
@@ -39,23 +42,19 @@ label {
   padding: 1rem;
 }
 
-h1 {
+h2 {
   padding: 10px;
   margin: 0;
 
   text-align: center;
 
   font-family: 'Open Sans', Helvetica, sans-serif;
-  font-size: 75px;
+  font-size: 65px;
 }
 
 .photographer {
-  width: 40vw;
-  height: 40vh;
-
-  border: solid;
-  border-radius: 25%;
-  border-color: aqua;
+  width: 25vw;
+  height: 60vh;
 
   margin: auto;
 }
@@ -64,8 +63,6 @@ h1 {
 nav {
   display: flex;
   justify-content: space-between;
-
-  padding: auto;
 
   font-family: Helvetica, sans-serif;
 }
