@@ -14,4 +14,9 @@
 [Lorem Picsum](https://picsum.photos/)
  - [Lorem Picsum photo used](https://fastly.picsum.photos/id/823/5000/3333.jpg?hmac=75sjFAfvXxelfFDFdlupCl2KDgIbyOOBTmvhcr6u0B8)
 
+ [FontAwesome](https://fontawesome.com/)
+  - I used FontAwesome for the social media icons for the social navigation bar in the footer element
+
 ### Above and Beyond
+
+- I created a social navigation bar inside the footer element; see lines 53-57 in index.html
