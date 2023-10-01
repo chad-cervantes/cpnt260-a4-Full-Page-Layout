@@ -1,6 +1,6 @@
 /*styling body */
 body {
-  background-color: lightgreen;
+  background-color: #eadfc1;
 }
 
 /* styling main */
@@ -13,6 +13,11 @@ main {
 
 p {
   margin: auto;
+
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+
+  text-align: center;
 }
 
 /* styled logo */
@@ -40,7 +45,8 @@ h1 {
 
   text-align: center;
 
-  font-size: 50px;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 75px;
 }
 
 .photographer {
@@ -58,6 +64,10 @@ h1 {
 nav {
   display: flex;
   justify-content: space-between;
+
+  padding: auto;
+
+  font-family: Helvetica, sans-serif;
 }
 
 /* styling navbar*/
@@ -75,7 +85,7 @@ nav {
 nav a:hover {
   background-color: lightsalmon;
   
-  padding: auto;
+  padding: 1rem;
 }
 
 a {
@@ -84,7 +94,9 @@ a {
 
 /* nav buttons */
 nav a {
-  color: black;
+  color: white;
+
+  font-size: 20px;
 }
 
 /* for label */
@@ -119,10 +131,10 @@ footer p {
 /* used different color for nav */
 @media (color) {
   nav {
-    background-color: black;
+    background-color: #282828;
   } 
   nav ul {
-    background-color: black;
+    background-color: #282828;
   }
 }
 
