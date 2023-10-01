@@ -120,13 +120,24 @@ footer {
   
   background-color: #eadfc1;
 
-  margin-top: 200px;
+  margin-top: 190px;
 
   flex: auto;
 }
 
 footer p {
   text-align: center;
+}
+
+.social-nav {
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+
+  padding: auto;
+
+  gap: 2rem;
 }
 
 /* used different color for nav */
