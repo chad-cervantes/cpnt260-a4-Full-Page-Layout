@@ -23,6 +23,7 @@ p {
   max-width: 85ch;
   text-align: left;
 
+  padding-bottom: 5rem;
   padding: 3rem;
 
   line-height: 2;
@@ -131,10 +132,14 @@ nav a {
   color: white;
 }
 
+.about {
+  background-color: green;
+}
+
 footer {
   padding: 1rem;
   
-  background-color: #black;
+  /* background-color: black; */
 
   margin-top: 190px;
 
