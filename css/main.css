@@ -155,6 +155,8 @@ footer {
 
 footer p {
   text-align: center;
+
+  margin: auto;
 }
 
 .social-nav {
