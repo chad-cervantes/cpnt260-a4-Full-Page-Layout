@@ -77,11 +77,12 @@ nav {
   justify-content: space-between;
 
   font-family: Helvetica, sans-serif;
+  padding: auto;
 }
 
 /* styling navbar*/
  nav ul {
-  padding: 1rem;
+  /* padding: 1rem; */
 
   display: none;
    
@@ -113,8 +114,6 @@ nav a {
   text-decoration: none;
 
   display: block;
-
-  /* padding: 1rem; */
 }
 
 /* for label */
@@ -132,9 +131,12 @@ nav a {
   color: white;
 }
 
-.about {
+.active {
   background-color: green;
-}
+
+  border: solid;
+  border-color: orange;
+ }
 
 footer {
   padding: 1rem;
