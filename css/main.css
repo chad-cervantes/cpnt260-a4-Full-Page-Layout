@@ -1,6 +1,6 @@
 /*styling body */
 body {
-  background-color: #eadfc1;
+  background-image: linear-gradient(240deg,hsl(68, 93%, 36%),hsl(43, 91%, 35%), hsl(60, 80%, 14%),hsl(82, 96%, 18%));
 }
 
 /* styling main */
@@ -21,6 +21,8 @@ p {
   padding: 0;
 
   line-height: 2;
+
+  color: #f6ecad;
 }
 
 /* styled logo */
@@ -53,7 +55,7 @@ h1 {
 
   filter: drop-shadow(5px 5px 5px black);
 
-  color: black;
+  color: whitesmoke;
 }
 
 .photographer {
@@ -118,7 +120,7 @@ nav a {
 footer {
   padding: 1rem;
   
-  background-color: #eadfc1;
+  background-color: #black;
 
   margin-top: 190px;
 
