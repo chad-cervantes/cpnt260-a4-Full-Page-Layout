@@ -8,11 +8,9 @@ body {
 
 /* styling main */
 main {
-  display: grid;
-  grid-template-columns: 1fr 1fr; 
-
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
   /* margin: auto; */
 }
@@ -69,8 +67,11 @@ h1 {
 }
 
 .photographer {
-  width: 35vw;
+  width: 45vw;
   height: 60vh; 
+
+  /* max-width: 40ch;
+  min-width: 40ch; */
 
   margin: auto;
 }
