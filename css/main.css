@@ -11,6 +11,9 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr; 
 
+  /* display: flex;
+  justify-content: center; */
+
   /* margin: auto; */
 }
 
@@ -20,7 +23,8 @@ p {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
 
-  max-width: 85ch;
+  max-width: 40ch;
+  min-width: 40ch;
   text-align: left;
 
   padding-bottom: 5rem;
@@ -66,7 +70,7 @@ h1 {
 
 .photographer {
   width: 35vw;
-  height: 60vh;
+  height: 60vh; 
 
   margin: auto;
 }
@@ -163,6 +167,21 @@ footer p {
   gap: 2rem;
 
   color: white;
+}
+
+.social-nav ul {
+  list-style: none;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.social-nav li:hover {
+  transform: scale(1.5);
 }
 
 /* used different color for nav */
