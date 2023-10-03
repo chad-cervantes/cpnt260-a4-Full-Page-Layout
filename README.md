@@ -33,5 +33,5 @@ Helpful resource used
 
 ### Important Notes
 
-- AA contrast: The text color of the paragraph, for some odd reason, has a low contrast ratio; but text can be seen very clearly. The inspector states that because I have a white background, the color of the test is hard to see, but this isn't the case since I used a gradient of three different colors.
+- AA contrast: The text color of the paragraph, for some odd reason, has a low contrast ratio; but text can be seen very clearly. The inspector states that because I have a white background, the color of the text is hard to see, but this isn't the case since I used a gradient of three different colors.
 
