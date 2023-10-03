@@ -8,7 +8,7 @@
 ### Attributions 
 
 [Photographer logo](https://global-uploads.webflow.com/63a9fb94e473f36dbe99c1b1/64879902d220c134514f49d7_iziIZfUDS2KEG5yznkig.png)
-- See line in index.html
+- See line 21 in index.html
 - [Original source of image](https://www.manypixels.co/blog/brand-design/photography-logo)
 
 [Lorem Picsum](https://picsum.photos/)
@@ -17,6 +17,8 @@
  [FontAwesome](https://fontawesome.com/)
   - I used FontAwesome for the social media icons for the social navigation bar in the footer element
 
+ [Mozilla Developer](https://developer.mozilla.org/en-US/)
+
 ### Above and Beyond
 
-- I created a social navigation bar inside the footer element; see lines 53-57 in index.html
+- I created a social navigation bar inside the footer element; see lines 57-61 in index.html
