@@ -47,11 +47,11 @@
 } */
 
 /* styled label */
-label {
+/* label {
   color: white;
 
   padding: 2rem;
-}
+} */
 
 /* h1 {
   padding-top: 5rem;
@@ -76,35 +76,30 @@ label {
 } */
 
 /*styling nav */
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
 
   font-family: Helvetica, sans-serif;
   padding-right: 2rem;
-}
+} */
 
 /* styling navbar*/
- nav ul {
-  /* padding: 1rem; */
-
+ /* nav ul {
   display: none;
    
   list-style: none;
   
   gap: 1rem;
- }
+ } */
 
 /* nav hover */
-nav a:hover {
+/* nav a:hover {
   background-color: lightsalmon;
-  
-  /* padding: 1rem; */
- 
-}
+} */
 
 /* nav buttons */
-nav a {
+/* nav a {
   color: white;
 
   font-size: 20px;
@@ -112,29 +107,24 @@ nav a {
   text-decoration: none;
 
   display: block;
-}
+} */
 
 /* for label */
-input {
+/* input {
   display: none;
-}
+} */
 
 /* ensures no checkboxes */
-input:checked + ul {
+/* input:checked + ul {
   display: block;
-}
+} */
 
-/* nav buttons */
-nav a {
-  color: white;
-}
-
-.active {
+/* .active {
   background-color: green;
 
   border: solid;
   border-color: orange;
- }
+ } */
 
  /* styled footer */
 /* footer {
@@ -152,7 +142,7 @@ nav a {
   margin: auto;
 } */
 
-.social-nav {
+/* .social-nav {
   margin: auto;
 
   display: flex;
@@ -163,9 +153,9 @@ nav a {
   gap: 2rem;
 
   color: white;
-}
+} */
 
-.social-nav ul {
+/* .social-nav ul {
   list-style: none;
 
   margin: auto;
@@ -174,11 +164,11 @@ nav a {
   justify-content: center;
 
   gap: 1rem;
-}
+} */
 
-.social-nav li:hover {
+/* .social-nav li:hover {
   transform: scale(1.5);
-}
+} */
 
 /* @media (width > 50rem) {
   body {
@@ -195,26 +185,26 @@ nav a {
 } */
 
 /* used different color for nav */
-@media (color) {
+/* @media (color) {
   nav {
     background-color: #282828;
   } 
   nav ul {
     background-color: #282828;
   }
-}
+} */
 
 /* to make it mobile friendly */
-@media (min-width: 50rem) {
+/* @media (min-width: 50rem) {
   nav ul {
     display: flex;
     justify-content: flex-end;  
     align-items: center;
   }
-}
+} */
 
 /*toggle */
-@media screen and (width > 50rem) {
+/* @media screen and (width > 50rem) {
   nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -227,4 +217,4 @@ nav a {
   input:checked + ul {
     display: none;
   }
-}
+} */

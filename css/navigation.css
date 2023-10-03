@@ -1,0 +1,131 @@
+/* styled label */
+label {
+  color: white;
+
+  padding: 2rem;
+}
+
+/* for label */
+input {
+  display: none;
+}
+
+/*styling nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: Helvetica, sans-serif;
+  padding-right: 2rem;
+}
+
+/* styling navbar*/
+ nav ul {
+  /* padding: 1rem; */
+
+  display: none;
+   
+  list-style: none;
+  
+  gap: 1rem;
+ }
+
+/* nav hover */
+nav a:hover {
+  background-color: lightsalmon;
+}
+
+/* nav buttons */
+nav a {
+  color: white;
+
+  font-size: 20px;
+
+  text-decoration: none;
+
+  display: block;
+}
+
+/* for label */
+input {
+  display: none;
+}
+
+/* ensures no checkboxes */
+input:checked + ul {
+  display: block;
+}
+
+/* styled active class */
+.active {
+  background-color: green;
+
+  border: solid;
+  border-color: orange;
+ }
+
+ /* styled social navbar */
+ .social-nav {
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+
+  padding: auto;
+
+  gap: 2rem;
+
+  color: white;
+}
+
+/* styled social nav ul */
+.social-nav ul {
+  list-style: none;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+/* made hover for social navbar */
+.social-nav li:hover {
+  transform: scale(1.5);
+}
+
+/* used different color for nav */
+@media (color) {
+  nav {
+    background-color: #282828;
+  } 
+  nav ul {
+    background-color: #282828;
+  }
+}
+
+/* to make it mobile friendly */
+@media (min-width: 50rem) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
+  }
+}
+
+/*toggle */
+@media screen and (width > 50rem) {
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  label {
+    display: none;
+  }
+
+  input:checked + ul {
+    display: none;
+  }
+}
