@@ -1,6 +1,6 @@
 /*styling body */
 body {
-  background-image: linear-gradient(240deg, hsl(195, 53%, 79%), hsl(291, 35%, 15%), hsl(145, 72%, 45%));
+  background-image: linear-gradient(140deg,hsl(136, 94%, 4%), hsl(291, 35%, 15%));
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -46,7 +46,8 @@ p {
 
   line-height: 2;
 
-  color: #f6ecad;
+  /* color: #f6ecad; */
+  color: #fdeea6;
 }
 
 /* styled footer */
@@ -86,7 +87,7 @@ footer p {
 
 @media (width > 45rem) {
   body {
-    background-image: linear-gradient(240deg, hsl(195, 53%, 79%), hsl(291, 35%, 15%), hsl(145, 72%, 45%));
+    background-image: linear-gradient(210deg,hsl(136, 94%, 4%), hsl(136, 23%, 40%), hsl(291, 35%, 15%));
   }
 
   h1 {
