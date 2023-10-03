@@ -17,7 +17,9 @@
  [FontAwesome](https://fontawesome.com/)
   - I used FontAwesome for the social media icons for the social navigation bar in the footer element
 
- [Mozilla Developer](https://developer.mozilla.org/en-US/)
+ Helpful resource used 
+ - [Mozilla Developer](https://developer.mozilla.org/en-US/)
+ - Search term: Mozilla Developer
 
  [Addition source used for colors](https://heyreliable.com/ultimate-google-font-pairings/)
 
