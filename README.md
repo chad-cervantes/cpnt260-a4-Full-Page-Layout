@@ -19,6 +19,8 @@
 
  [Mozilla Developer](https://developer.mozilla.org/en-US/)
 
+ [Addition source used for colors](https://heyreliable.com/ultimate-google-font-pairings/)
+
 ### Above and Beyond
 
 - I created a social navigation bar inside the footer element; see lines 57-61 in index.html
