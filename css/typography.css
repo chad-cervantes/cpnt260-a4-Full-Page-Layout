@@ -1,0 +1,32 @@
+/* typography of h1 */
+h1 {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 45px;
+}
+
+/* typography of p */
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+/* typography of nav */
+nav {
+  font-family: Helvetica, sans-serif;
+}
+
+/* typography of nav a */
+nav a {
+  font-size: 20px;
+}
+
+/* to make font-sizes mobile friendly */
+@media (width > 45rem) {
+  h1 {
+    font-size: 65px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+}

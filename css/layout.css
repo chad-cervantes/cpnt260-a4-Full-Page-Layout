@@ -17,15 +17,13 @@ main {
   flex-wrap: wrap;
 }
 
+/*styling h1 */
 h1 {
   padding-top: 5rem;
   
   margin: 0;
 
   text-align: center;
-
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  font-size: 45px;
 
   filter: drop-shadow(5px 5px 5px black);
 
@@ -35,9 +33,6 @@ h1 {
 p {
   margin: auto;
 
-  font-family: Helvetica, sans-serif;
-  font-size: 17px;
-
   max-width: 40ch;
   min-width: 20ch;
   text-align: left;
@@ -46,7 +41,6 @@ p {
 
   line-height: 2;
 
-  /* color: #f6ecad; */
   color: #fdeea6;
 }
 
@@ -88,13 +82,5 @@ footer p {
 @media (width > 45rem) {
   body {
     background-image: linear-gradient(210deg,hsl(136, 94%, 4%), hsl(136, 23%, 40%), hsl(291, 35%, 15%));
-  }
-
-  h1 {
-    font-size: 65px;
-  }
-
-  p {
-    font-size: 22px;
   }
 }
