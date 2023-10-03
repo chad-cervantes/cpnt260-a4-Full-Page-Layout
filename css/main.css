@@ -30,7 +30,6 @@ p {
   min-width: 40ch;
   text-align: left;
 
-  padding-bottom: 5rem;
   padding: 1rem;
 
   line-height: 2;
@@ -193,7 +192,7 @@ footer p {
   transform: scale(1.5);
 }
 
-@media (width > 50rem) {
+@media screen and (width > 50rem) {
   body {
     background-image: linear-gradient(240deg, hsl(195, 53%, 79%), hsl(291, 35%, 15%), hsl(145, 72%, 45%));
   }
@@ -202,7 +201,7 @@ footer p {
     font-size: 65px;
   }
 
-  p{
+  p {
     font-size: 22px;
   }
 }
