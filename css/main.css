@@ -1,6 +1,5 @@
 /*styling body */
-body {
-  /* background-image: linear-gradient(240deg,hsl(68, 93%, 36%),hsl(43, 91%, 35%), hsl(60, 80%, 14%),hsl(82, 96%, 18%)); */
+/* body {
   background-image: linear-gradient(240deg, hsl(195, 53%, 79%), hsl(291, 35%, 15%), hsl(145, 72%, 45%));
   background-position: center;
   background-repeat: no-repeat;
@@ -9,18 +8,16 @@ body {
   margin: 0;
 
   overflow-x: hidden;
-}
+} */
 
 /* styling main */
-main {
+/* main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+} */
 
-  /* margin: auto; */
-}
-
-p {
+/* p {
   margin: auto;
 
   font-family: Helvetica, sans-serif;
@@ -35,10 +32,10 @@ p {
   line-height: 2;
 
   color: #f6ecad;
-}
+} */
 
 /* styled logo */
-.logo {
+/* .logo {
   display: flex;
   justify-content: flex-start;
   float: left;
@@ -47,7 +44,7 @@ p {
   height: 50px;
 
   padding: 1rem;
-}
+} */
 
 /* styled label */
 label {
@@ -56,9 +53,9 @@ label {
   padding: 2rem;
 }
 
-h1 {
+/* h1 {
   padding-top: 5rem;
-  /* padding: 10px; */
+  
   margin: 0;
 
   text-align: center;
@@ -69,17 +66,14 @@ h1 {
   filter: drop-shadow(5px 5px 5px black);
 
   color: whitesmoke;
-}
+} */
 
-.photographer {
+/* .photographer {
   width: 45vw;
   height: 60vh; 
 
-  /* max-width: 40ch;
-  min-width: 40ch; */
-
   margin: auto;
-}
+} */
 
 /*styling nav */
 nav {
@@ -108,12 +102,6 @@ nav a:hover {
   /* padding: 1rem; */
  
 }
-
-/* a {
-  text-decoration: none;
-
-  display: block;
-} */
 
 /* nav buttons */
 nav a {
@@ -148,21 +136,21 @@ nav a {
   border-color: orange;
  }
 
-footer {
+ /* styled footer */
+/* footer {
   padding: 1rem;
   
-  /* background-color: black; */
-
   margin-top: 190px;
 
   flex: auto;
-}
+} */
 
-footer p {
+/* styled footer p */
+/* footer p {
   text-align: center;
 
   margin: auto;
-}
+} */
 
 .social-nav {
   margin: auto;
@@ -192,19 +180,19 @@ footer p {
   transform: scale(1.5);
 }
 
-@media screen and (width > 50rem) {
+/* @media (width > 50rem) {
   body {
     background-image: linear-gradient(240deg, hsl(195, 53%, 79%), hsl(291, 35%, 15%), hsl(145, 72%, 45%));
   }
 
   h1 {
-    font-size: 65px;
+    font-size: 55px;
   }
 
   p {
     font-size: 22px;
   }
-}
+} */
 
 /* used different color for nav */
 @media (color) {
