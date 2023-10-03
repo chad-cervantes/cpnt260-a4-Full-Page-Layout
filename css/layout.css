@@ -77,6 +77,10 @@ footer p {
   height: 60vh; 
 
   margin: auto;
+
+  border: solid;
+  border-color: pink;
+  border-radius: 20%;
 }
 
 @media (width > 45rem) {
