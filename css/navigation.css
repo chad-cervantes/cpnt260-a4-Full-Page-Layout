@@ -87,6 +87,11 @@ input:checked + ul {
   gap: 1rem;
 }
 
+/* added color to social nav icons */
+.social-nav a {
+  color: white;
+}
+
 /* made hover for social navbar */
 .social-nav li:hover {
   transform: scale(1.5);
